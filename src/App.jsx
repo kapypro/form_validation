@@ -22,7 +22,7 @@ const App = () => {
     defaultValues: {
       fullname: '',
       pincode: '',
-      // gender: '',
+      gender: '',
       // phone: '',
       // address: '',
       // discountPercentage: 0
@@ -153,7 +153,7 @@ const App = () => {
         </div>
 
         {/* Gender */}
-        {/* <div className="form-group">
+        <div className="form-group">
           <label className="form-label">Gender *</label>
           <div className="radio-group">
             <label className="radio-label">
@@ -184,7 +184,7 @@ const App = () => {
           {errors.gender && (
             <p className="error-message">{errors.gender.message}</p>
           )}
-        </div> */}
+        </div>
 
         {/* Phone */}
         {/* <div className="form-group">
