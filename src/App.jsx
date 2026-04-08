@@ -23,7 +23,7 @@ const App = () => {
       fullname: '',
       pincode: '',
       gender: '',
-      // phone: '',
+      phone: '',
       // address: '',
       // discountPercentage: 0
     }
@@ -187,7 +187,7 @@ const App = () => {
         </div>
 
         {/* Phone */}
-        {/* <div className="form-group">
+        <div className="form-group">
           <label className="form-label">Phone Number *</label>
           <input
             type="tel"
@@ -199,7 +199,7 @@ const App = () => {
           {errors.phone && (
             <p className="error-message">{errors.phone.message}</p>
           )}
-        </div> */}
+        </div>
 
         {/* Multi Banner Upload */}
         <div className="form-group">
