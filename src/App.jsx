@@ -242,8 +242,8 @@ const App = () => {
           />
           {errors.address && (
             <p className="error-message">{errors.address.message}</p>
-        //   )}
-        // </div>
+          )}
+        </div>
 
         {/* Discount Percentage */}
         {/* <div className="form-group">
