@@ -24,7 +24,7 @@ const App = () => {
       pincode: '',
       gender: '',
       phone: '',
-      // address: '',
+      address: '',
       // discountPercentage: 0
     }
   });
@@ -233,7 +233,7 @@ const App = () => {
         </div>
 
         {/* Address */}
-        {/* <div className="form-group">
+        <div className="form-group">
           <label className="form-label">Address *</label>
           <textarea
             {...register('address')}
@@ -242,8 +242,8 @@ const App = () => {
           />
           {errors.address && (
             <p className="error-message">{errors.address.message}</p>
-          )}
-        </div> */}
+        //   )}
+        // </div>
 
         {/* Discount Percentage */}
         {/* <div className="form-group">
