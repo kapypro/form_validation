@@ -21,7 +21,7 @@ const App = () => {
     resolver: zodResolver(formSchema),
     defaultValues: {
       fullname: '',
-      // pincode: '',
+      pincode: '',
       // gender: '',
       // phone: '',
       // address: '',
@@ -138,7 +138,7 @@ const App = () => {
         </div>
 
         {/* Pincode */}
-        {/* <div className="form-group">
+        <div className="form-group">
           <label className="form-label">Pincode *</label>
           <input
             type="text"
@@ -150,7 +150,7 @@ const App = () => {
           {errors.pincode && (
             <p className="error-message">{errors.pincode.message}</p>
           )}
-        </div> */}
+        </div>
 
         {/* Gender */}
         {/* <div className="form-group">
